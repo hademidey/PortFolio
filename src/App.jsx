@@ -7,7 +7,7 @@ function App() {
     <div>
       <Navbar />
       <div className="flex ">
-      <SideNav />
+      {/* <SideNav /> */}
       <Main />
       </div>
     </div>

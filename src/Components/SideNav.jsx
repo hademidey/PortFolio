@@ -7,12 +7,12 @@ import { MdOutlinePhone } from "react-icons/md";
 
 export default function SideNav() {
   return (
-    <div className="flex flex-col gap-10 mt-10 items-center justify-center w-[100px] h-[300px]">
+    <div className="flex flex-col gap-10 mt-60 items-center text-blue-700 justify-center w-[150px] h-full">
       <BsGithub />
       <FaTwitter />
       <FaInstagram />
       <FaLinkedin />
-      <MdOutlineMailOutline />
+      
       <MdOutlinePhone />
     </div>
   );
