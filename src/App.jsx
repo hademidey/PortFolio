@@ -1,5 +1,4 @@
 import Navbar from "./Components/Navbar";
-import SideNav from "./Components/sideNav";
 import Main from "./Components/Main";
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
     <div>
       <Navbar />
       <div className="flex ">
-      {/* <SideNav /> */}
       <Main />
       </div>
     </div>
