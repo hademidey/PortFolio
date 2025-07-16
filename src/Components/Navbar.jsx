@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed w-full top-0 z-50 bg-white px-6 py-4 shadow transition-transform duration-700 ease-out ${
+      className={`fixed md:fixed w-full top-0 z-50 bg-white px-6 py-4 shadow transition-transform duration-700 ease-out ${
         loaded ? 'translate-y-0' : '-translate-y-40'
       }`}
     >
@@ -23,7 +23,7 @@ export default function Navbar() {
           <li className="hover:text-blue-700 transition duration-300 cursor-pointer">Portfolio</li> */}
 
         {/* </ul> */}
-        <div className='flex justify-center items-center gap-2  font-semibold text-2xl'> 
+        <div className='flex justify-center items-center gap-1 font-bold text-2xl'> 
         Alase Samuel 
         </div>
         
