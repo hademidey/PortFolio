@@ -14,7 +14,7 @@ export default function Navbar() {
         loaded ? 'translate-y-0' : '-translate-y-40'
       }`}
     >
-      <div className="flex justify-between items-center px-10">
+      <div className="flex justify-between items-center px-2">
         {/* <h1 className="text-xl font-bold text-blue-500">ALASE SAMUEL ADEMIDE</h1> */}
         {/* <ul className="flex space-x-6 text-blue-500 font-medium">
           <li className="hover:text-blue-700 transition duration-300 cursor-pointer">Home</li>
