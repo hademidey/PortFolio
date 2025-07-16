@@ -12,7 +12,7 @@ export default function Main() {
           <img
             src="img/image.png"
             alt=""
-            className="w-[250px] h-[250px] md:h-[500px] md:w-[500px] -z-10  bg-gray-600/50 object-cover rounded-full md:border-blue-500"
+            className="w-[300px] h-[300px] md:h-[500px] md:w-[500px] -z-10  bg-gray-600/50 object-cover rounded-full md:border-blue-500"
           />
         </div>
       </div>
