@@ -5,14 +5,14 @@ import { LuNavigation } from "react-icons/lu";
 
 export default function Main() {
   return (
-    <div className="w-full flex mt-20 md:px-55 px-10 flex-col md:flex-row justify-center items-center ">
+    <div className="w-full flex mt-5 md:px-55 px-10 flex-col md:flex-row justify-center items-center ">
       <div className="md:w-1/2 flex justify-center relative items-center ">
         <div className="md:bg-blue-500/70 w-[500px] h-[500px] absolute -z-10 rounded-full"></div>
         <div className="">
           <img
             src="img/image.png"
             alt=""
-            className="w-[300px] h-[300px] md:h-[500px] md:w-[500px] -z-10  bg-gray-600/50 object-cover rounded-full md:border-blue-500"
+            className="w-[400px] h-[400px] md:h-[500px] md:w-[500px] -z-10 mx-auto bg-gray-600/50 object-cover rounded-full md:border-blue-500"
           />
         </div>
       </div>

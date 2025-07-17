@@ -1,90 +1,40 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 import { MdOutlineMail } from "react-icons/md";
 
 export default function Navbar() {
-  const [loaded, setLoaded] = useState(false);
+  // const [loaded, setLoaded] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setLoaded(true), 100); 
+    setTimeout(() => setLoaded(true), 100);
   }, []);
 
   return (
-    <nav
-      className={`fixed md:fixed w-full top-0 z-50 bg-white px-6 py-4 shadow transition-transform duration-700 ease-out ${
-        loaded ? 'translate-y-0' : '-translate-y-40'
-      }`}
-    >
-      <div className="flex justify-between items-center px-2">
-        {/* <h1 className="text-xl font-bold text-blue-500">ALASE SAMUEL ADEMIDE</h1> */}
-        {/* <ul className="flex space-x-6 text-blue-500 font-medium">
-          <li className="hover:text-blue-700 transition duration-300 cursor-pointer">Home</li>
-          <li className="hover:text-blue-700 transition duration-300 cursor-pointer">About</li>
-          <li className="hover:text-blue-700 transition duration-300 cursor-pointer">Contact</li>
-          <li className="hover:text-blue-700 transition duration-300 cursor-pointer">Portfolio</li> */}
-
-        {/* </ul> */}
-        <div className='flex justify-center items-center gap-1 font-bold text-2xl'> 
-        Alase Samuel 
+    <nav className=" bg-gray-100 p-4">
+      <div className="flex justify-between items-center gap-20 px-2">
+        <div className="flex justify-center items-center  font-bold text-2xl">
+          Alase Samuel
         </div>
-        
+        <button
+          className="space-y-1"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle Menu"
+        >
+          <div className="w-6 h-0.5 bg-gray-800"></div>
+          <div className="w-5 h-0.5 bg-gray-800"></div>
+          {/* <div className="w-4 h-0.5 bg-gray-800"></div> */}
+        </button>
       </div>
+      {menuOpen && (
+        <div className="absolute top-16 right-0 border bg-gray-400/45 shadow-md rounded-md p-3 z-15 w-full text-left">
+          <ul className="space-y-2 text-sm flex flex-col justify-between gap-1">
+            <li className="hover:text-blue-500 cursor-pointer">About</li>
+            <li className="hover:text-blue-500 cursor-pointer">Experience</li>
+            <li className="hover:text-blue-500 cursor-pointer">Projects</li>
+            <li className="hover:text-blue-500 cursor-pointer">Contact</li>
+          </ul>
+        </div>
+      )}
     </nav>
   );
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import React from "react";
-
-// export default function Navbar() {
-//   return (
-//     <nav className="flex justify-between px-10 mt-5 py-4 ">
-//       <span className="text-2xl text-blue-600">ALASE SAMUEL ADEMIDE</span>
-//       <div>
-//         <ul className="flex justify-center gap-10 text-blue-600 ">
-//           <li>Home</li>
-//           <li>About</li>
-//           <li>Skills</li>
-//           <li>Services</li>
-//           <li>Portfolio</li>
-//           <li>Contact Me</li>
-//         </ul>
-//       </div>
-//     </nav>
-//   );
-// }
-
-
