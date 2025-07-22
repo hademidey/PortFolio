@@ -8,7 +8,7 @@ export default function Footer() {
         <h2 className="text-2xl font-bold">Let's Connect</h2>
         <p className="text-gray-700">Feel free to reach out on any of these platforms 👇</p>
 
-        <div className="flex justify-center space-x-6 text-xl">
+        <div className="flex justify-center space-x-6 text-xl mt-5 text-gray-500">
           <a href="https://github.com/hademidey?" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition">
             <FaGithub />
           </a>

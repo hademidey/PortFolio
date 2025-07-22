@@ -41,7 +41,7 @@ export default function Main() {
           </button>
         </div>
 
-        <div className="flex justify-center items-center mt-2 text-3xl gap-3 ">
+        <div className="flex justify-center items-center mt-2 text-3xl gap-3 text-gray-500">
           <FaLinkedin />
           <BsGithub />
         </div>
