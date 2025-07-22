@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function Experience() {
   return (
-    <div className=' mt-5 text-center' id="experience">
-      <h2 className='text-2xl font-semibold '>Experience</h2>
+    <div  className='mt-12 w-[60%] mx-auto p-10 bg-gray-200/70 rounded-lg shadow-lg'>
+      <h2 className='text-2xl font-semibold text-center mb-6'>Experience</h2>
       <ul className='bg-gray-100/70'>
         <li>
           <h3 className='text-xl font-semibold text-gray-400/90 mt-2'>Frontend Developer</h3>
