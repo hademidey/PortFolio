@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <nav className=" bg-gray-100 p-4">
       <div className="flex justify-between items-center gap-20 px-2">
-        <Link to="/" className="font-bold text-2xl">
+        <Link to="/" className="font-bold text-2xl ">
           Alase Samuel
         </Link>
 
@@ -35,16 +35,16 @@ export default function Navbar() {
           } transition-all duration-700 md:relative md:z-15 md:top-0 md:bg-inherit md:border-none md:shadow-none md:w-auto`}
         >
           <ul className="space-y-2 text-sm flex flex-col gap-1 md:gap-5 md:flex-row">
-            <li className="hover:text-blue-500 cursor-pointer " onClick={handleMenuToggle}>
+            <li className=" cursor-pointer " onClick={handleMenuToggle}>
               <Link to="about">About</Link>
             </li>
-            <li className="hover:text-blue-500 cursor-pointer" onClick={handleMenuToggle}>
+            <li className=" cursor-pointer" onClick={handleMenuToggle}>
               <Link to="experience">Experience</Link>
             </li>
-            <li className="hover:text-blue-500 cursor-pointer" onClick={handleMenuToggle}>
+            <li className=" cursor-pointer" onClick={handleMenuToggle}>
               <Link to="projects">Projects</Link>
             </li>
-            <li className="hover:text-blue-500 cursor-pointer" onClick={handleMenuToggle}>
+            <li className=" cursor-pointer" onClick={handleMenuToggle}>
               <Link to="skills">Skills</Link>
             </li>
           </ul>

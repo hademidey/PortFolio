@@ -18,7 +18,7 @@ export default function Footer() {
           <a href="https://twitter.com/" target="_blank" rel="noopener noreferrer" className="hover:text-gray-300 transition">
             <FaTwitter />
           </a>
-          <a href="alaseademide02@gmail.com<" className="hover:text-gray-300 transition">
+          <a href="alaseademide02@gmail.com" className="hover:text-gray-300 transition">
             <FaEnvelope />
           </a>
         </div>

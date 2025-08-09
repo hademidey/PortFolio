@@ -1,7 +1,7 @@
 export default function Skills() {
   return (
     <div  className='mt-12 w-[90%] mx-auto p-5 bg-gray-200/70 rounded-lg shadow-lg' >
-      <h2 className="text-2xl text-center font-semibold ">Skills</h2>
+      <h2 className="text-2xl text-center font-semibold underline ">Skills</h2>
       <ul className="flex flex-col justify-center items-center flex-wrap gap-5 mt-5 md:flex-row">
         <li className="bg-white p-4 rounded-lg shadow-md self-start">
           <h3 className="text-xl font-semibold">HTML</h3>

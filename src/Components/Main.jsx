@@ -36,15 +36,15 @@ export default function Main() {
             Download CV
           </button>
 
-          <button className="md:text-xl mt-10  p-3 rounded-4xl flex text-black items-center justify-between gap-2  border font-semibold">
+          <button className="md:text-xl mt-10  p-3 rounded-4xl flex text-black items-center justify-between gap-2 border font-semibold">
             Contact Info
           </button>
         </div>
 
-        <div className="flex justify-center items-center mt-2 text-3xl gap-3 text-gray-500">
+        {/* <div className="flex justify-center items-center mt-2 text-3xl gap-3 text-gray-500">
           <FaLinkedin />
           <BsGithub />
-        </div>
+        </div> */}
       </div>
     </div>
   );
