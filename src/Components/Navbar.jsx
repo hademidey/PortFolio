@@ -48,9 +48,13 @@ export default function Navbar() {
             <li className=" cursor-pointer" onClick={handleMenuToggle}>
               <Link to="skills">Skills</Link>
             </li>
-
-            <li className=" cursor-pointer" onClick={handleMenuToggle}>
-              <Link to="download">Download CV</Link>
+            <li>
+              <a
+                href="img/Alase samuel.pdf"
+                download="Alase samuel.pdf"
+                className=" text-black px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+              >Download CV
+              </a>
             </li>
           </ul>
         </div>
