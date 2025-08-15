@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { IoMdCloudDownload } from "react-icons/io";
 import { MdOutlineMail } from "react-icons/md";
 import { Link } from "react-router-dom";
 export default function Navbar() {
@@ -46,6 +47,10 @@ export default function Navbar() {
             </li>
             <li className=" cursor-pointer" onClick={handleMenuToggle}>
               <Link to="skills">Skills</Link>
+            </li>
+
+            <li className=" cursor-pointer" onClick={handleMenuToggle}>
+              <Link to="download">Download CV</Link>
             </li>
           </ul>
         </div>
