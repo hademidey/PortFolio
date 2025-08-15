@@ -31,7 +31,7 @@ export default function Navbar() {
           {/* <div className="w-4 h-0.5 bg-gray-800"></div> */}
         </button>
         <div
-          className={`absolute right-0 border bg-gray-400/45 shadow-md rounded-md p-3 z-15 w-full text-left ${
+          className={`absolute right-0 border bg-gray-600/45 shadow-md rounded-b-lg p-3 z-15 w-full text-left ${
             menuOpen ? "top-16" : "-top-100"
           } transition-all duration-700 md:relative md:z-15 md:top-0 md:bg-inherit md:border-none md:shadow-none md:w-auto`}
         >
@@ -48,11 +48,10 @@ export default function Navbar() {
             <li className=" cursor-pointer" onClick={handleMenuToggle}>
               <Link to="skills">Skills</Link>
             </li>
-            <li>
+            <li className=" cursor-pointer" onClick={handleMenuToggle}>
               <a
                 href="img/Alase samuel.pdf"
                 download="Alase samuel.pdf"
-                className=" text-black px-4 py-2 rounded-lg hover:bg-blue-700 transition"
               >Download CV
               </a>
             </li>
