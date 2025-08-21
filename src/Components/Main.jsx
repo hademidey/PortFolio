@@ -3,6 +3,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { BsGithub } from "react-icons/bs";
 import { LuNavigation } from "react-icons/lu";
 import CVSection from "./CVSection";
+import Contact from "./Contact";
 
 export default function Main() {
   return (
@@ -40,6 +41,8 @@ export default function Main() {
 
           <button className="md:text-xl mt-10  p-3 rounded-4xl flex text-black items-center justify-between gap-2 border font-semibold">
             Contact Info
+          
+           
           </button>
         </div>
 
