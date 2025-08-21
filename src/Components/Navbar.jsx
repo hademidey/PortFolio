@@ -35,7 +35,7 @@ export default function Navbar() {
             menuOpen ? "top-16" : "-top-100"
           } transition-all duration-700 md:relative md:z-15 md:top-0 md:bg-inherit md:border-none md:shadow-none md:w-auto`}
         >
-          <ul className="space-y-2 text-sm flex flex-col gap-1 md:gap-5 md:flex-row text-white">
+          <ul className="space-y-2 text-sm flex flex-col gap-1 md:gap-5 md:flex-row text-white md:text-black md:font-bold">
             <li className=" cursor-pointer " onClick={handleMenuToggle}>
               <Link to="about">About</Link>
             </li>

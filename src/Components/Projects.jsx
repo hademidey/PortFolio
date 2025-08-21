@@ -56,7 +56,7 @@ export default function Projects() {
       <h1 className="text-center text-2xl m-10 font-bold md:text-4xl">
         Projects
       </h1>
-      <div className="mt-12 w-[90%] mx-auto p-5  rounded-lg shadow-lg md:w-[60%]">
+      <div className="mt-12 w-[90%] mx-auto p-5 md:w-[60%]">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {projects.map((project, index) => (
             <div
