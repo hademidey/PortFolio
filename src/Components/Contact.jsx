@@ -22,7 +22,7 @@ export default function Contact() {
           href="https://www.linkedin.com/in/samuel-alase-271420189/"
           target="_blank"
           rel="noopener noreferrer"
-          className="hover:text-gray-300 transition flex items-center gap-5 slide-in-two"
+          className="hover:text-gray-300 transition flex items-center gap-5 slide-in-three"
         >
           <FaLinkedin />
           LinkedIn
@@ -38,7 +38,7 @@ export default function Contact() {
         </a>
         <a
           href="mailto:alaseademide02@gmail.com"
-          className="hover:text-gray-300 transition flex items-center gap-5 slide-in-two"
+          className="hover:text-gray-300 transition flex items-center gap-5 slide-in-three"
         >
           <FaEnvelope />
           Email
