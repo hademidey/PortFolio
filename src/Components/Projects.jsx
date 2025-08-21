@@ -4,7 +4,6 @@ import { FiExternalLink } from "react-icons/fi";
 
 export default function Projects() {
   const projects = [
-   
     {
       image: "img/weatha.png",
       name: "Weather App",
@@ -14,7 +13,7 @@ export default function Projects() {
         <div className="flex gap-2 text-sm text-gray-500 mt-2">
           <p>React</p> <p>TailwindCss</p> <p>JavaScript</p>
         </div>
-      )
+      ),
     },
     {
       image: "img/Nexora.png",
@@ -25,18 +24,19 @@ export default function Projects() {
         <div className="flex gap-2 text-sm text-gray-500 mt-2">
           <p>React</p> <p>TailwindCss</p> <p>JavaScript</p>
         </div>
-      )
+      ),
     },
     {
       image: "img/portfolio.png",
       name: "Portfolio Website",
-      description: "A personal website built with React and deployed on Netlify.",
+      description:
+        "A personal website built with React and deployed on Netlify.",
       link: "https://ademii.netlify.app/",
       skills: (
         <div className="flex gap-2 text-sm text-gray-500 mt-2">
           <p>React</p> <p>TailwindCss</p> <p>JavaScript</p>
         </div>
-      )
+      ),
     },
     {
       image: "img/agecalc.png",
@@ -47,74 +47,43 @@ export default function Projects() {
         <div className="flex gap-2 text-sm text-gray-500 mt-2">
           <p>React</p> <p>TailwindCss</p> <p>JavaScript</p>
         </div>
-      )
-    }
-];
+      ),
+    },
+  ];
 
-
-return (
-    <div className="mt-12 w-[90%] mx-auto p-5 bg-gray-200/70 rounded-lg shadow-lg md:w-[60%]">
-      <h1 className="text-center text-2xl mb-10 font-semibold text-gray-500">
+  return (
+    <>
+      <h1 className="text-center text-4xl m-10 font-bold ">
         Projects
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
-        {projects.map((project, index) => (
-          <div
-            key={index}
-            className="bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow duration-300"
-          >
-            <img
-              src={project.image}
-              alt={project.name}
-              className="w-full h-50 object-cover rounded-t-lg"
-            />
-            <div className="flex items-center justify-between">
-
-            <h3 className="text-xl font-semibold mt-3">{project.name}</h3>
-            <Link
-              to={project.link}
-              target="_blank"
-              className="mt-4 inline-block  text-gray px-4 py-2 rounded hover:bg-blue-600 transition-colors duration-300"
-              >
-             <FiExternalLink/>
-            </Link>
+      <div className="mt-12 w-[90%] mx-auto p-5 bg-gray-200/70 rounded-lg shadow-lg md:w-[60%]">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          {projects.map((project, index) => (
+            <div
+              key={index}
+              className="bg-white rounded-lg shadow-md p-5 hover:shadow-lg transition-shadow duration-300"
+            >
+              <img
+                src={project.image}
+                alt={project.name}
+                className="w-full h-50 object-cover rounded-t-lg"
+              />
+              <div className="flex items-center justify-between">
+                <h3 className="text-xl font-semibold mt-3">{project.name}</h3>
+                <Link
+                  to={project.link}
+                  target="_blank"
+                  className="mt-4 inline-block  text-gray px-4 py-2 rounded hover:bg-blue-600 transition-colors duration-300"
+                >
+                  <FiExternalLink />
+                </Link>
               </div>
-            <p className="text-gray-600 mt-2">{project.description}</p>
-            {project.skills}
-          </div>
-        ))}
+              <p className="text-gray-600 mt-2">{project.description}</p>
+              {project.skills}
+            </div>
+          ))}
+        </div>
       </div>
-    </div>
+    </>
   );
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
-
- 

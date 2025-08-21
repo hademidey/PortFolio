@@ -1,3 +1,4 @@
+import { Phone } from "lucide-react";
 import CVSection from "./CVSection";
 import { Link } from "react-router";
 
@@ -30,15 +31,15 @@ export default function Main() {
           producing quality work.
         </p> */}
         <div className="flex justify-center items-center gap-3">
-          <button className="md:text-xl mt-10  p-3 rounded-4xl flex text-black items-center justify-between border gap-2 font-semibold">
+          <button className="md:text-xl mt-10 py-2 px-3 rounded-4xl flex text-black items-center justify-between border gap-2 font-semibold">
             <CVSection />
           </button>
 
           <Link
             to="/contact"
-            className="md:text-xl mt-10  p-3 rounded-4xl flex text-black items-center justify-between gap-2 border font-semibold"
+            className="md:text-xl mt-10  py-2 px-5 rounded-4xl flex text-black items-center justify-between gap-2 border font-semibold"
           >
-            Contact Info
+           <Phone/> <span>Contact Info</span>
           </Link>
         </div>
 

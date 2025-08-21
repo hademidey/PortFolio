@@ -1,3 +1,4 @@
+import { File } from "lucide-react";
 import React from "react";
 
 export default function CVSection() {
@@ -7,9 +8,9 @@ export default function CVSection() {
         href="img/Alase samuel.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className=" text-black px-4  rounded-lg  transition"
+        className="flex items-center gap-2 text-black px-4  rounded-lg  transition"
       >
-        View CV
+       <File/> <span> View CV</span>
       </a>
     </div>
   );

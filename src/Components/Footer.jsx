@@ -50,10 +50,10 @@ export default function Footer() {
           </a>
         </div>
 
-        <hr className="border-gray-900  mb-1 mt-2 w-1/2 mx-auto" />
+        <hr className="border-gray-500  mb-1 mt-2 w-1/2 mx-auto" />
 
-        <p className="text-sm text-white">
-          © {new Date().getFullYear()} Alase Samuel.
+        <p className="text-sm text-white py-2">
+          © 2025 Alase Samuel.
         </p>
       </div>
     </footer>
