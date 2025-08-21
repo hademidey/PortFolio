@@ -11,7 +11,7 @@ export default function Footer() {
           Feel free to reach out on any of these platforms{" "}
         </p>
 
-        <div className="flex justify-center space-x-6 text-xl mt-5 text-gray-500">
+        <div className="flex justify-center space-x-5 text-xl mt-5 text-gray-500">
           <a
             href="https://github.com/hademidey?"
             target="_blank"

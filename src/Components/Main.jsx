@@ -4,18 +4,19 @@ import { BsGithub } from "react-icons/bs";
 import { LuNavigation } from "react-icons/lu";
 import CVSection from "./CVSection";
 import Contact from "./Contact";
+import { Link } from "react-router";
 
 export default function Main() {
   return (
     <div className="w-full flex mt-5 md:px-55 px-2 flex-col md:flex-row justify-center items-center overflow-hidden">
       <div className="md:w-1/2 flex justify-center relative items-center ">
         <div className="md:bg-blue-500/70 w-full absolute -z-10 rounded-full"></div>
-        <div className="w-[350px] h-[350px] md:h-[500px] md:w-[500px] -z-10 mx-auto bg-gray-600/50 object-cover rounded-full md:border-blue-500"
-          >
+        <div className="w-[350px] h-[350px] md:h-[500px] md:w-[500px] -z-10 mx-auto bg-gray-600/50 object-cover rounded-full md:border-blue-500">
           <img
             src="img/image.png"
             alt=""
-            className="w-full h-full object-cover object-center"/>
+            className="w-full h-full object-cover object-center"
+          />
         </div>
       </div>
 
@@ -35,15 +36,15 @@ export default function Main() {
         </p> */}
         <div className="flex justify-center items-center gap-3">
           <button className="md:text-xl mt-10  p-3 rounded-4xl flex text-black items-center justify-between border gap-2 font-semibold">
-           
             <CVSection />
           </button>
 
-          <button className="md:text-xl mt-10  p-3 rounded-4xl flex text-black items-center justify-between gap-2 border font-semibold">
+          <Link
+            to="/contact"
+            className="md:text-xl mt-10  p-3 rounded-4xl flex text-black items-center justify-between gap-2 border font-semibold"
+          >
             Contact Info
-          
-           
-          </button>
+          </Link>
         </div>
 
         {/* <div className="flex justify-center items-center mt-2 text-3xl gap-3 text-gray-500">
