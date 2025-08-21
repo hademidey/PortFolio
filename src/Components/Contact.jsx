@@ -4,7 +4,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 export default function Contact() {
   return (
     <div>
-      <h2 className="text-2xl font-semibold text-center m-6 md:text-4xl ">
+      <h2 className="text-2xl font-semibold text-center mt-6 mb-20 md:text-4xl ">
         Contact
       </h2>
 

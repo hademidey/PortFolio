@@ -50,7 +50,7 @@ export default function Footer() {
           </a>
         </div>
 
-        <hr className="border-gray-500  mb-1 mt-2 w-1/2 mx-auto" />
+        <hr className="border-gray-500  mb-1 mt-2 w-[60%]  mx-auto md:w-i/2" />
 
         <p className="text-sm text-white py-2">
           © 2025 Alase Samuel.

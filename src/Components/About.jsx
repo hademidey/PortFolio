@@ -1,7 +1,7 @@
 import React, { use, useEffect, useState } from "react";
 
 export default function About() {
-  function TypingText({ text, speed = 100 }) {
+  function TypingText({ text, speed}) {
     const [displayedText, setDisplayedText] = useState("");
 
     useEffect(() => {
