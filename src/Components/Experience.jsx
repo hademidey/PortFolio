@@ -4,10 +4,10 @@ import React from "react";
 export default function Experience() {
   return (
     <div>
-      <h2 className="text-4xl font-bold text-center m-6 underline ">
+      <h2 className="text-4xl font-bold text-center m-6">
         Experience
       </h2>
-      <div className="grid  mt-12 w-[90%] mx-auto p-5  rounded-lg  md:grid-cols-2  md:w-[70%]">
+      <div className="grid  mt-12 w-[90%] mx-auto p-5  rounded-lg gap-2  md:grid-cols-2  md:w-[70%]">
         <div className=" w-[90%] mx-auto p-5 bg-gray-200/70 rounded-lg shadow-lg ">
           <h2 className=" flex text-xl font-semibold  mt-2  items-center gap-2">
             <CodeXml className="text-black" />

@@ -11,7 +11,7 @@ export default function Skills() {
 
   return (
     <div className=" bg-gray-200/70 p-20">
-      <h2 className="text-center text-4xl font-bold mb-20 underline">
+      <h2 className="text-center text-2xl font-bold mb-20 md:text-4xl">
         Skills
       </h2>
       <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
