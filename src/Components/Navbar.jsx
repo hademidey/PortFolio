@@ -16,8 +16,8 @@ export default function Navbar() {
 
   return (
     <nav className=" bg-gray-100 p-4">
-      <div className="flex justify-between items-center gap-20 px-2">
-        <Link to="/" className="font-bold text-2xl ">
+      <div className="flex justify-between items-center gap-20 px-2 ">
+        <Link to="/" className="font-bold text-2xl slide-in-three">
           Alase Samuel
         </Link>
 

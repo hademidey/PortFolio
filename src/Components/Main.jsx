@@ -1,9 +1,4 @@
-import React from "react";
-import { FaLinkedin } from "react-icons/fa";
-import { BsGithub } from "react-icons/bs";
-import { LuNavigation } from "react-icons/lu";
 import CVSection from "./CVSection";
-import Contact from "./Contact";
 import { Link } from "react-router";
 
 export default function Main() {
@@ -11,16 +6,16 @@ export default function Main() {
     <div className="w-full flex mt-5 md:px-55 px-2 flex-col md:flex-row justify-center items-center overflow-hidden">
       <div className="md:w-1/2 flex justify-center relative items-center ">
         <div className="md:bg-blue-500/70 w-full absolute -z-10 rounded-full"></div>
-        <div className="w-[350px] h-[350px] md:h-[500px] md:w-[500px] -z-10 mx-auto bg-gray-600/50 object-cover rounded-full md:border-blue-500">
+        <div className="w-[350px] h-[350px] md:h-[500px] md:w-[500px] -z-10 mx-auto bg-gray-600/50 object-cover rounded-full fading-in md:border-blue-500">
           <img
             src="img/image.png"
             alt=""
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-cover object-center slide-in-four"
           />
         </div>
       </div>
 
-      <div className=" md:w-1/2 flex mt-14 flex-col justify-center items-center">
+      <div className=" md:w-1/2 flex mt-14 flex-col justify-center items-center slide-in-three">
         <span className="md:text-2xl font-semibold text-xl  text-gray-500">
           Hello, I'm
         </span>
